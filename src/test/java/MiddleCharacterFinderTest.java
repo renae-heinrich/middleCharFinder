@@ -5,6 +5,16 @@ import static org.junit.Assert.*;
 
 public class MiddleCharacterFinderTest {
 
+    @Test
+    public void inputEmptyMiddleCharacterEmpty() {
+        //setup
+
+        String result = MiddleCharacterFinder.calculator("");
+
+        Assert.assertEquals("", result);
+
+    }
+
 
     @Test
     public void input350MiddleCharacter5() {
