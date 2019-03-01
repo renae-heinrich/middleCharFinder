@@ -16,6 +16,15 @@ public class MiddleCharacterFinderTest {
 
     }
 
+    @Test
+    public void input1001MiddleCharacter5() {
+        //setup
+
+        String result = MiddleCharacterFinder.calculator("1001");
+
+        Assert.assertEquals("00", result);
+
+    }
 
 
 }
